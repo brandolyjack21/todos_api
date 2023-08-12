@@ -17,7 +17,7 @@ Todos.sync()
 app.use(express.json())
 
 app.get('/', (req,res) => {
-    send('todo bien')
+    res.send('todo bien')
 })
 
 
